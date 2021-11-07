@@ -1,0 +1,81 @@
+/*
+    Jose Silva
+    ITPA 2021
+    JS Programming Ex 9
+*/
+
+body{
+    margin:0;
+    padding:0px 50px 0px 50px;  
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.center{
+    text-align: center;
+}
+
+.display-4{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.toggle{
+    padding-right:5px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(133, 133, 133);
+}
+
+
+div{
+    display: block;
+}
+
+div p{
+    color:rgb(129, 129, 129);
+    margin-left:50px;
+    margin-top: -20px;;
+}
+
+img.logo{
+    height: 100px;
+}
+
+.logo2 {
+    width: 200px;
+}
+
+
+footer{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.em{font-weight: bolder;}
+.grey{ color:rgb(97, 97, 97);}
+
+/*Add classes*/
+/*
+    div with class close with style display none
+    class green with style color #25c53f
+    class red with style color #c31711
+*/
+    
+div.close{
+    display: none;
+}
+
+i.fa-minus-circle{
+    color: #c31711;
+}
+
+i.fa-plus-circle{
+    color: #25c53f;
+}
